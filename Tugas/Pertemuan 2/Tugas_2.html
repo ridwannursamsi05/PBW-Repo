@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <style>
+        fieldset {
+            width: 500px;
+            padding: 10px;
+        }
+        label {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Form Pendaftaran</legend>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama"><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <label>Jenis Kelamin:</label>
+            <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki">
+            <label for="laki">Laki-laki</label>
+            <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+            <label for="perempuan">Perempuan</label>
+            <br><br>
+            
+            <label>Hobi:</label>
+            <input type="checkbox" id="musik" name="hobi" value="Musik">
+            <label for="musik">Musik</label>
+            <input type="checkbox" id="olahraga" name="hobi" value="Olahraga">
+            <label for="olahraga">Olahraga</label>
+            <input type="checkbox" id="membaca" name="hobi" value="Membaca">
+            <label for="olahraga">Membaca</label>
+            <input type="checkbox" id="otomotif" name="hobi" value="Otomotif">
+            <label for="olahraga">Otomotif</label>
+            <input type="checkbox" id="kuliner" name="hobi" value="Kuliner">
+            <label for="olahraga">Kuliner</label>
+            <br><br>
+
+            <label for="kota">Pilih Kota:</label>
+            <select id="kota" name="kota">
+                <option value="Jakarta">Jakarta</option>
+                <option value="Bandung">Bandung</option>
+                <option value="Surabaya">Surabaya</option>
+                <option value="Karawang">Karawang</option>
+                <option value="Cikampek">Cikampek</option>
+            </select>
+            <br><br>
+            
+            <label for="foto">Upload Foto:</label>
+            <input type="file" id="foto" name="foto">
+            <br><br>
+            
+            <button type="submit">Daftar</button>
+        </form>
+    </fieldset>
+</body>
+</html>
