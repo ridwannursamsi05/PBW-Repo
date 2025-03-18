@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Web Singaperbangsa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Website Singaperbangsa</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Tentang</a></li>
+            <li><a href="#">Layanan</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section class="content">
+            <h2>Formulir Pendaftaran</h2>
+            <form>
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label>Jenis Kelamin:</label>
+                <input type="radio" name="gender" value="laki-laki"> Laki-laki
+                <input type="radio" name="gender" value="perempuan"> Perempuan
+
+                <label>Hobi:</label>
+                <input type="checkbox" name="hobi" value="baca"> Baca
+                <input type="checkbox" name="hobi" value="musik"> Musik
+                <input type="checkbox" name="hobi" value="olahraga"> Olahraga
+
+                <label for="pekerjaan">Pilih Kategori:</label>
+                <select id="pekerjaan" name="pekerjaan">
+                    <option value="mahasiswa">Mahasiswa</option>
+                    <option value="pekerja">Pekerja</option>
+                    <option value="pns">Pegawai Negeri</option>
+                </select>
+
+                <label for="pesan">Pesan Tambahan:</label>
+                <textarea id="pesan" name="pesan" rows="4"></textarea>
+
+                <button type="submit" class="btn">Kirim</button>
+            </form>
+        </section>
+        <aside class="sidebar">
+            <h2>Sidebar</h2>
+            <p>Bagian sidebar dapat berisi tautan, iklan, atau informasi tambahan.</p>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Halaman Web Singaperbangsa. Dibuat dengan CSS.</p>
+    </footer>
+</body>
+</html>
