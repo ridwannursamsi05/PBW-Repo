@@ -1,0 +1,6 @@
+-- Akun pengguna
+CREATE TABLE IF NOT EXISTS pengguna (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Nama VARCHAR(50) NOT NULL,
+    Katasandi VARCHAR(255) NOT NULL
+);
